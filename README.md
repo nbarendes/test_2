@@ -206,7 +206,7 @@ IMAGE               | Description
 ![0000000006](https://user-images.githubusercontent.com/34095574/88177612-79f44b00-cc29-11ea-81ce-bcf474f29f2f.png) | TTC from Camera is negative infinity because medDistRatio == 1. Need to delete right lane points and check medDistRatio to avoid division by zero.
 ![0000000007](https://user-images.githubusercontent.com/34095574/88177617-7bbe0e80-cc29-11ea-832a-b535801afcec.png) 
 
-I created a loop in code to test all possible combinations of detectors and descriptors and saved the results in `FP_6_Performance_Evaluation_2.csv` file [CSV file]
+I created a loop in code to test all possible combinations of detectors and descriptors and saved the results in `FP_6_Performance_Evaluation_2.csv` file.
 
 The TOP3 detector / descriptor combinations as the best choice for our purpose of detecting keypoints on vehicles are:
 Detector             | Descriptor
