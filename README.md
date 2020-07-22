@@ -208,6 +208,9 @@ IMAGE               | Description
 I created a loop in code to test all possible combinations of detectors and descriptors and saved the results in `FP_6_Performance_Evaluation_2.csv` file [CSV file]
 
 The TOP3 detector / descriptor combinations as the best choice for our purpose of detecting keypoints on vehicles are:
-SHITOMASI/BRISK         
-SHITOMASI/BRIEF            
-SHITOMASI/ORB           
+Detector             | Descriptor
+---------------------|-----------------
+  * `SHITOMASI` | `FREAK`
+  * `AKAZE` | `BRISK`
+  * `AKAZE` | `FREAK`
+        
