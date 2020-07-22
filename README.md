@@ -191,7 +191,6 @@ Some examples with wrong TTC estimate of the Lidar sensor:
 IMAGE               | Description
 --------------------| -------------------
 ![alt text](https://github.com/RustemIskuzhin/SFND-3D-Object-Tracking/blob/master/images/TTC_Lidar1.png) | TTC from Lidar is not correct because of some outliers. Need to filter outliers.
-![alt text](https://github.com/RustemIskuzhin/SFND-3D-Object-Tracking/blob/master/images/TTC_Lidar2.png) | TTC from Lidar is negative because estimation uses mean of all Lidar points that return minXCurr > minXPrev. Need to delete Lidar points from preceding vehicle front mirrors.
 ![alt text](https://github.com/RustemIskuzhin/SFND-3D-Object-Tracking/blob/master/images/TTC_Lidar3.png) | TTC from Lidar is not correct because of Lidar points from preceding vehicle front mirrors. Need to delete Lidar points from preceding vehicle front mirrors.
 
 
