@@ -205,7 +205,7 @@ IMAGE               | Description
 ![alt text](https://github.com/RustemIskuzhin/SFND-3D-Object-Tracking/blob/master/images/TTC_Camera2.png) | TTC from Camera is negative because estimation uses vechicle points from right lane that return minXCurr > minXPrev. Need to delete right lane points.
 ![alt text](https://github.com/RustemIskuzhin/SFND-3D-Object-Tracking/blob/master/images/TTC_Camera3.png) | TTC from Camera is negative infinity because medDistRatio == 1. Need to delete right lane points and check medDistRatio to avoid division by zero.
 
-I created a loop in code to test all possible combinations of detectors and descriptors and saved the results in a [Excel file](https://github.com/RustemIskuzhin/SFND-3D-Object-Tracking/blob/master/Evaluation.xlsx).
+I created a loop in code to test all possible combinations of detectors and descriptors and saved the results in `FP_6_Performance_Evaluation_2.csv` file [CSV file]
 
 The TOP3 detector / descriptor combinations as the best choice for our purpose of detecting keypoints on vehicles are:
 SHITOMASI/BRISK         
