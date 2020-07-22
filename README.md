@@ -210,7 +210,7 @@ I created a loop in code to test all possible combinations of detectors and desc
 The TOP3 detector / descriptor combinations as the best choice for our purpose of detecting keypoints on vehicles are:
 Detector             | Descriptor
 ---------------------|-----------------
-  * `SHITOMASI` | `FREAK`
-  * `AKAZE` | `BRISK`
-  * `AKAZE` | `FREAK`
+  SHITOMASI | FREAK
+   AKAZE | BRISK
+   AKAZE | FREAK
         
