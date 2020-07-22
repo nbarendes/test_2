@@ -202,7 +202,6 @@ Some examples with wrong TTC estimate of the Camera:
 
 IMAGE               | Description
 --------------------| -------------------
-
 ![alt text](https://github.com/RustemIskuzhin/SFND-3D-Object-Tracking/blob/master/images/TTC_Camera3.png) | TTC from Camera is negative infinity because medDistRatio == 1. Need to delete right lane points and check medDistRatio to avoid division by zero.
 
 I created a loop in code to test all possible combinations of detectors and descriptors and saved the results in `FP_6_Performance_Evaluation_2.csv` file [CSV file]
