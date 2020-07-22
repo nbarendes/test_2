@@ -191,10 +191,11 @@ Some examples with wrong TTC estimate of the Lidar sensor:
 IMAGE               | Description
 --------------------| -------------------
 ![0000000013](https://user-images.githubusercontent.com/34095574/88179075-a14c1780-cc2b-11ea-8b2a-a608f33c7cfb.png)| TTC from Lidar is not correct because of some outliers. Need to filter outliers.
+ TTC from Lidar is not correct because of Lidar points from preceding vehicle front mirrors. Need to delete Lidar points from preceding vehicle front mirrors.
+
 ![0000000014](https://user-images.githubusercontent.com/34095574/88179078-a27d4480-cc2b-11ea-9a42-2a42dc4d20f5.png)|
 ![0000000015](https://user-images.githubusercontent.com/34095574/88179080-a3ae7180-cc2b-11ea-9afc-99c2bcc395f8.png)|
-![0000000016](https://user-images.githubusercontent.com/34095574/88179086-a4470800-cc2b-11ea-91ad-9b4e85100f0d.png)| TTC from Lidar is not correct because of Lidar points from preceding vehicle front mirrors. Need to delete Lidar points from preceding vehicle front mirrors.
-
+![0000000016](https://user-images.githubusercontent.com/34095574/88179086-a4470800-cc2b-11ea-91ad-9b4e85100f0d.png)|
 
 #### 6. Performance Evaluation 2
 
